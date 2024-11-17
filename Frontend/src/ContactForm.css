@@ -68,3 +68,9 @@ form .error {
   font-size: 20px;
   text-align: center;
 }
+
+.success{
+  color: #0ac78b;
+  align-self: center;
+  font-size: 20px;
+}
