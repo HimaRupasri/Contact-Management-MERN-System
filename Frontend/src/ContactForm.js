@@ -12,7 +12,7 @@ const ContactForm = ({ fetchContacts }) => {
     jobTitle: "",
   });
   const [error, setError] = useState("");
-  const [successMessage, setSuccessMessage] = useState(""); // Added successMessage state
+  const [successMessage, setSuccessMessage] = useState(""); 
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -24,7 +24,7 @@ const ContactForm = ({ fetchContacts }) => {
 
   const validateForm = () => {
     setError("");
-    setSuccessMessage(""); // Clear success message if validation fails
+    setSuccessMessage("");
 
     if (
       !formData.firstName ||
@@ -81,7 +81,7 @@ const ContactForm = ({ fetchContacts }) => {
         company: "",
         jobTitle: "",
       });
-      setSuccessMessage("Contact added successfully!"); // Set success message
+      setSuccessMessage("Contact added successfully!");
     } catch (err) {
       setError("Failed to add contact.");
     }
@@ -133,7 +133,7 @@ const ContactForm = ({ fetchContacts }) => {
           placeholder="Job Title"
         />
         {error && <div className="error">{error}</div>}
-        {successMessage && <div className="success">{successMessage}</div>} {/* Display success message */}
+        {successMessage && <div className="success">{successMessage}</div>}
         <button type="submit">Add Contact</button>
       </form>
     </div>
@@ -141,3 +141,5 @@ const ContactForm = ({ fetchContacts }) => {
 };
 
 export default ContactForm;
+
+
