@@ -24,8 +24,8 @@ Deleting a Contact: Users may need to remove outdated or duplicate entries, help
 -To install create-react-app globally run "npm install -g create-react-app"
 
 **3. Create React application**\
--Create contact management application by using the command "npx create-react-app contact-management"\
--navigate to the project folder using "cd contact-management"\
+-Create contact management application by using the command "npx create-react-app Frontend"\
+-navigate to the project folder using "cd Frontend"\
 -Run "npm start" to start the frontend applicaion.
 
 **4. Install Packages**\
