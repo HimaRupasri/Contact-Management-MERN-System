@@ -56,14 +56,14 @@ Deleting a Contact: Users may need to remove outdated or duplicate entries, help
 **DataBase**
 
 -Use any database of your choice\
--Here I have used MongoDB for following reasons:\n
-For the **Contact Management System**, **MongoDB** is a suitable database choice due to the following reasons:\
-1. **NoSQL Structure**: MongoDB is a NoSQL database, which allows flexible and scalable storage of data. In this case, contacts can have varied attributes, and MongoDB’s schema-less nature allows for easy handling of such data without the need for a rigid relational structure.\
-2. **Scalability**: MongoDB is highly scalable, making it a good fit for applications that may need to store a growing number of contact records over time. As your contact list expands, MongoDB can scale horizontally to handle the increased load.\
-3. **Document-Oriented**: MongoDB stores data in the form of JSON-like documents (BSON), which is easy to map to JavaScript objects in a Node.js/React environment. This makes it easier to work with and simplifies data retrieval and manipulation in the backend.\
-4. **Performance**: MongoDB offers high performance for read and write operations, making it ideal for applications like contact management where you need to frequently update, add, or delete contact details.\
-5. **Ease of Integration**: MongoDB integrates well with Node.js, and Mongoose provides a simple way to interact with the database. This allows you to efficiently perform CRUD operations (Create, Read, Update, Delete) on contacts with minimal setup.\
-6. **Flexible Schema**: Although the contact data will follow a consistent structure (name, email, phone, etc.), MongoDB’s flexible schema allows you to add new fields easily in the future without significant changes to the database structure.\
+-Here I have used MongoDB for following reasons:\
+For the **Contact Management System**, **MongoDB** is a suitable database choice due to the following reasons:
+1. **NoSQL Structure**: MongoDB is a NoSQL database, which allows flexible and scalable storage of data. In this case, contacts can have varied attributes, and MongoDB’s schema-less nature allows for easy handling of such data without the need for a rigid relational structure.
+2. **Scalability**: MongoDB is highly scalable, making it a good fit for applications that may need to store a growing number of contact records over time. As your contact list expands, MongoDB can scale horizontally to handle the increased load.
+3. **Document-Oriented**: MongoDB stores data in the form of JSON-like documents (BSON), which is easy to map to JavaScript objects in a Node.js/React environment. This makes it easier to work with and simplifies data retrieval and manipulation in the backend.
+4. **Performance**: MongoDB offers high performance for read and write operations, making it ideal for applications like contact management where you need to frequently update, add, or delete contact details.
+5. **Ease of Integration**: MongoDB integrates well with Node.js, and Mongoose provides a simple way to interact with the database. This allows you to efficiently perform CRUD operations (Create, Read, Update, Delete) on contacts with minimal setup.
+6. **Flexible Schema**: Although the contact data will follow a consistent structure (name, email, phone, etc.), MongoDB’s flexible schema allows you to add new fields easily in the future without significant changes to the database structure.
 -If you also use MongoDB make sure you download and install MongoDB shell\
 -To test the data in the database use the type mongoosh in the terminal\
 -To see the data stored run the following commands:\
