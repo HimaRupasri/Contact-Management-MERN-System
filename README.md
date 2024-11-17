@@ -50,7 +50,7 @@ Deleting a Contact: Users may need to remove outdated or duplicate entries, help
 -Use the following command "npm install express cors body-parser mongoose dotenv"
 
 **4. Run the server**
--Type node server.js in the terminal
+-Type "node server.js" in the terminal
 
 
 **DataBase**
