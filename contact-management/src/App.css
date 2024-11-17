@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #262727;
+  margin: 0;
+  padding: 0;
+  background: url('https://www.shutterstock.com/shutterstock/videos/1108881487/thumb/1.jpg?ip=x480') no-repeat center center fixed;
+  background-size: cover; 
+  opacity: 0.7;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #eaf34a;
+  margin: 0 15px;
+  font-size: 22 px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 50%;
+  margin: 35px auto;
+}
+
